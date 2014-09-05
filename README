@@ -7,3 +7,12 @@ Vibhaj Rajan <vibhaj8@gmail.com>
 Licensed under The MIT License 
 http://www.opensource.org/licenses/mit-license.php
 
+
+
+Usage
+
+Update HackerRank username and password in HackerRank.sublime-settings file
+Code file to be named as Problem slug
+In the code editor, use ctrl+atl+x to compile code on HackerRank servers
+The output is shown in console
+
