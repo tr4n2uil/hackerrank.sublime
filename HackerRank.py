@@ -12,11 +12,11 @@ cookie = False
 # HR Sublime Plugin Class
 class HackerRankCommand(sublime_plugin.TextCommand):
 	def run(self, edit):
-		global cookie
-
+		# load settings
 		settings = sublime.load_settings("HackerRank.sublime-settings")
 		string = self.view.substr(sublime.Region(0, self.view.size()))
 
+		# activate console panel
 		sublime.active_window().run_command("show_panel", {"panel": "console", "toggle": True})
 
 		# start HR API thread
