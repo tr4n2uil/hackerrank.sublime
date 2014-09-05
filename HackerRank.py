@@ -4,6 +4,8 @@ import json, time, random, hashlib
 import sys, os, re
 import Cookie
 
+
+# in memory cookie storage
 cookie = False
 
 
